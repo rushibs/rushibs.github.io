@@ -15,7 +15,7 @@
 
 			<!-- Header -->
 				<header id="header">
-					<a <a href="https://docs.google.com/document/d/1mR0Exbzv7Mb50_b9M4N9kd8T4y9BwWDY/edit?usp=sharing&ouid=111796522976698702140&rtpof=true&sd=true" class="logo">Resume</a>
+					<a href="https://docs.google.com/document/d/1mR0Exbzv7Mb50_b9M4N9kd8T4y9BwWDY/edit?usp=sharing&ouid=111796522976698702140&rtpof=true&sd=true" class="logo">Resume</a>
 				</header>
 
 			<!-- Nav -->
@@ -49,76 +49,151 @@
 								</header>
 
 								<!-- Text stuff -->
-									<h2>Vision based Pose and Velocity estimation of a micro aerial vehicle using RANSAC <i style="color:gray">&nbsp&nbsp&nbsp&nbsp&nbsp<sub>April 2022</sub></i></b></h2>
+						
+
+									<h2>V-SLAM Based on Semantic Segmentation for Dynamic Objects removal to reconstruct static scene <a href="https://github.com/rushibs/Robot_Perception/tree/master/Project/v_slam"><sub><u>[Link]</u></sub></a><a href="https://www.youtube.com/watch?v=dum8PkvgM4Q&list=PLCDL0cLF3UqOC4FURteFTgJsX22jl7nUU&index=4&ab_channel=RushiShah"><sub><u>[Video]</u></sub></a> <i style="color:gray"><sup>Fall 2022</sup></i></b> </h2>
 									<p>
 										<ul>
-											<li> Implemented four-point algorithm and projective geometry to localize an aerial vehicle on a mat of April Tags </li>
-											<li> Programmed an algorithm for optical flow estimation using the Lucas–Kanade algorithm & Motion Field Equations </li>
-											<li> Implemented RANSAC to make the system more robust and reject outliers using three sets of constraints </li>	
+											<li>Developed a V-SLAM framework in C++ and Python by remove the features from dynamic object using semantic segmentation  </li>
+											<li>Performed bundle-adjustment using g2o on data points obtained using ORB feature extractor and triangulation method   </li>
+											<li>Generated dynamic mask using RCNN model and achieved Static Scene Reconstruction and attained high pose accuracy  </li>	
 										</ul>
-
 									</p>
 									<hr />
-
-									<h2>Extended Kalman Filter for AV Localization using Vicon camera and IMU <i style="color:gray">&nbsp&nbsp&nbsp&nbsp&nbsp<sub>March 2022</sub></i></b> </h2>
+								
+									<h2>Query-Based Person Identification using Visual Place Recognition <a href="https://github.com/rushibs/Robot_Perception/tree/master/HW2/Query-Based%20Person%20Identification%20using%20Visual%20Place%20Recognition"><sub><u>[Link]</u></sub></a>  <i style="color:gray">&nbsp&nbsp&nbsp&nbsp&nbsp<sub>November 2022</sub></i></b> </h2>
 									<p>
 										<ul>
-											<li> Implemented Extended Kalman Filter for estimating position, velocity, and orientation, and sensor biases of a AV </li>
-											<li> Programmed Prediction and Update functions accounting the sensor noise to get the predicted and updated probability density functions with unique mean and covariance in each iteration </li>
-											<li> Achieved a plot with almost complete overlap with desired values and runtime for 864 iterations under 1 min </li>	
+											<li>Developed a solution using Python and OpenCV & query-based approach to identify ‘person of interest’ from a pool of images  </li>
+											<li>Employed the 'Bag of visual words' methodology along with ORB feature extraction, KNN (k-nearest neighbors) and image indexing</li>
+											<li>Retrieved the relevant pictures from a surveillance photo database based on three provided query pictures  </li>	
 										</ul>
-
 									</p>
 									<hr />
-
-									<h2>Inverse kinematics and resolved rate control for KUKA IIWA 14 <i style="color:gray">&nbsp&nbsp&nbsp&nbsp&nbsp<sub>December 2021</sub></i></b> </h2>
-									<p>
-										<ul>
-											<li> Computed forward kinematics, joint velocities, jacobians, and joint trajectories for the serial manipulator </li>
-											<li> Generated joint trajectories by computing inverse kinematics and joint control along with end effector control </li>
-											<li> Implemented impedance control for the manipulator with gravity compensation </li>	
-											<li> Obtained point-to-point trajectories for the end-effector by implementing different controls </li>
-										</ul>
-
-									</p>
-									<hr />
-
-									<h2>Phalanx rehabilitation and replacement <i style="color:gray">&nbsp&nbsp&nbsp&nbsp&nbsp<sub>December 2021</sub></i></b></h2>
-									<p>
-										<ul>
-											<li>Manufactured a prosthetic device for missing fingers which can also be used as a rehabilitation device </li>
-											<li> The device movements mirror the actions of the corresponding finger from another hand	</li>
-											<li> Developed a low-cost underactuated device using a flex sensor and Arduino for disabled patients </li>	
-										</ul>
-
-									</p>
-									<hr />
-
-									<h2>Traffic Light Classifier <i style="color:gray">&nbsp&nbsp&nbsp&nbsp&nbsp<sub>February 2021</sub></i></b></h2>
-									<p>
-										<ul>
-											<li>Built a classifier for images from a given dataset of traffic light images in which one colored light is illuminated </li>
-											<li>Employed OpenCV2 computer vision library for Loading and visualizing the data, Pre-processing it, Feature extraction Classification and visualizing error, and evaluating the model </li>
-											<li>Recognized and classified the images in multiple colors and achieved greater than 90% accuracy in classification </li>	
-										</ul>
-
-									</p>
-									<hr />
-
-									<h2>Histogram Filter <i style="color:gray">&nbsp&nbsp&nbsp&nbsp&nbsp<sub>January 2021</sub></i></b></h2>
-									<p>
-										<ul>
-											<li>Programmed a 2-D histogram filter for robot localization in Python and C++	</li>
-											<li>Implemented the histogram filter in a grid map representing the robot's world by assigning the robot's belief of its 
-												environment before sensing, considering the probability of the robot making an error in sensing its environment </li>
-											<li>Obtained a refined 2-D filter for a robot living on a colored cyclical grid </li>	
-										</ul>
-
-									</p>
-									<hr />
-									<ul class="actions">
-										<li><a href="#header" class="button icon solid solo fa-arrow-up scrolly">Continue</a></li>
+								
+								<h2>Iterative Closest Point (ICP) for 3D point-cloud alignment <a href="https://github.com/rushibs/Robot_Perception/tree/master/HW2/ICP"><sub><u>[Link]</u></sub></a>  <i style="color:gray">&nbsp&nbsp&nbsp&nbsp&nbsp<sub>November 2022</sub></i></b> </h2>
+								<p>
+									<ul>
+										<li> Employed an Singular Value Decomposition(SVD)-based least square best fit method in Python for performing the ICP algorithm </li>
+										<li> Refined the algorithm by finding the nearest neighbors in the target dataset from the source dataset</li>
+										<li> Performed the above on Open3D library's datasets and on KITTI dataset </li>	
 									</ul>
+								</p>
+								<hr />
+
+
+								<h2>Low Dimensional Projection of images and visualization using tSNE <a href="https://github.com/rushibs/Robot_Perception/tree/master/HW2/Low_dimensional_visualization"><sub><u>[Link]</u></sub></a>  <i style="color:gray">&nbsp&nbsp&nbsp&nbsp&nbsp<sub>October 2022</sub></i></b> </h2>
+								<p>
+									<ul>
+										<li> Trained an unsupervised learning neural network to get a lower-dimensional representation of the images in MNIST dataset using Python in Gogole Colab </li>
+										<li> Normalized and flattened the dataset to pass it through the Autoencoder in Tensorflow to extract the layer with lower dimension</li>
+										<li> Passed the encoded test images through T-distributed Stochastic Neighbor Embedding (tSNE) algorithm to visualize data </li>	
+									</ul>
+								</p>
+								<hr />
+
+
+								<h2>Implementation of Augmented Reality Cube Visualization with ArucoMarker <a href="https://github.com/rushibs/Robot_Perception/tree/master/HW1/Implementation%20of%20Augmented%20Reality%20Cube%20Visualization%20with%20ArucoMarker"><sub><u>[Link]</u></sub></a>  <i style="color:gray">&nbsp&nbsp&nbsp&nbsp&nbsp<sub>October 2022</sub></i></b> </h2>
+								<p>
+									<ul>
+										<li>Applied the pyAprilTag package in Python to accurately detect an AprilTag or Aruco Tag within an image </li>
+										<li>Utilized the previously camera calibration matrix to precisely render a 3D cube, matching the size of the detected tag, onto the image </li>
+										<li>Employed OpenCV methods to project and visualize the cube on the tag, demonstrating AR outcomes from diverse perspectives  </li>	
+									</ul>
+								</p>
+								<hr />
+								
+								<h2>Automatic Image Analysis and Camera Calibration <a href="https://github.com/rushibs/Robot_Perception/tree/master/HW1/Automatic%20Image%20Analysis%20and%20Camera%20Calibration"><sub><u>[Link]</u></sub></a>  <i style="color:gray">&nbsp&nbsp&nbsp&nbsp&nbsp<sub>September 2022</sub></i></b> </h2>
+									<p>
+										<ul>
+											<li>Identified and calculated the coordinates of three vanishing points in an image using image processing techniques  </li>
+											<li>Utilized Gaussian blur and edge detection algorithms to extract line features and applied the Hough transform for line detection </li>
+											<li>Obtained the intersection points of orthogonal line pairs and utilized them for camera calibration, determining the focal length and principal point position  </li>	
+										</ul>
+									</p>
+									<hr />
+
+								<h2>Vision based Pose and Velocity estimation of a micro aerial vehicle using RANSAC  <a href="https://github.com/rushibs/Robot-Localization-and-Navigation/tree/main/Vision%20based%20Pose%20and%20Velocity%20estimation%20of%20a%20micro%20aerial%20vehicle%20using%20RANSAC "><sub><u>[Link]</u></sub></a> <i style="color:gray">&nbsp&nbsp&nbsp&nbsp&nbsp<sub>April 2022</sub></i></b></h2>
+								<p>
+									<ul>
+										<li> Implemented four-point algorithm and projective geometry to localize an aerial vehicle on a mat of April Tags </li>
+										<li> Programmed an algorithm for optical flow estimation using the Lucas-Kanade algorithm & Motion Field Equations </li>
+										<li> Implemented RANSAC to make the system more robust and reject outliers using three sets of constraints </li>	
+									</ul>
+
+								</p>
+								<hr />
+
+								<h2>Extended Kalman Filter for AV Localization using Vicon camera and IMU <a href="https://github.com/rushibs/Robot-Localization-and-Navigation/tree/main/Extended%20Kalman%20Filter%20for%20AV%20Localization%20using%20Vicon%20camera%20and%20IMU%20data "><sub><u>[Link]</u></sub></a> <i style="color:gray">&nbsp&nbsp&nbsp&nbsp&nbsp<sub>March 2022</sub></i></b> </h2>
+								<p>
+									<ul>
+										<li> Implemented Extended Kalman Filter in MATLAB for estimating position, velocity, and orientation, and sensor biases of an Aerial Vehicle </li>
+										<li> Programmed Prediction and Update functions accounting the sensor noise to get the predicted and updated probability density functions with unique mean and covariance in each iteration </li>
+										<li> Achieved a plot with almost complete overlap with desired values and runtime for 864 iterations under 1 min </li>	
+									</ul>
+
+								</p>
+								<hr />
+
+								<h2>Inverse kinematics and resolved rate control for KUKA IIWA 14 <a href=" "><sub><u>[Link]</u></sub></a> <i style="color:gray">&nbsp&nbsp&nbsp&nbsp&nbsp<sub>December 2021</sub></i></b> </h2>
+								<p>
+									<ul>
+										<li> Computed forward kinematics, joint velocities, jacobians, and joint trajectories for the serial manipulator </li>
+										<li> Generated joint trajectories by computing inverse kinematics and joint control along with end effector control </li>
+										<li> Implemented impedance control for the manipulator with gravity compensation </li>	
+										<li> Obtained point-to-point trajectories for the end-effector by implementing different controls </li>
+									</ul>
+
+								</p>
+								<hr />
+
+								<h2> Autonomous Contactless Delivery Robot <a href=" https://github.com/rushibs/Mechatronics-Projects/tree/main/Autonomous%20Contactless%20Delivery%20Robot "></a><sub><u>[Link]</u></sub></a>  <i style="color:gray">&nbsp&nbsp&nbsp&nbsp&nbsp<sub>May 2022</sub></i></b> </h2>
+									<p>
+										<ul>
+											<li>Orchestrated the autonomous navigation of a robotic system by seamlessly integrating Raspberry Pi and Parallax Propeller platforms  </li>
+											<li>Implemented a multi-threaded programming paradigm in C++ to enhance the efficiency and responsiveness of the system and to run the controls and other tasks separately</li>
+											<li>Leveraged computer vision techniques, utilizing the Pi camera and OpenCV, to detect and identify different addresses along the designated path </li>
+											<li>Incorporated ultrasonic sensors and a custom 3D-printed chassis, complemented by servo motors, to enable precise location specification and autonomous routing for contactless delivery operations  </li>	
+										</ul>
+									</p>
+									<hr />
+
+								<h2>Phalanx rehabilitation and replacement <a href="https://github.com/rushibs/Mechatronics-Projects/tree/main/Phalanx%20Rehabilitation%20and%20%20Replacement "><sub><u>[Link]</u></sub></a> <i style="color:gray">&nbsp&nbsp&nbsp&nbsp&nbsp<sub>December 2021</sub></i></b></h2>
+								<p>
+									<ul>
+										<li>Manufactured a prosthetic device for missing fingers which can also be used as a rehabilitation device </li>
+										<li> The device movements mirror the actions of the corresponding finger from another hand	</li>
+										<li> Developed a low-cost underactuated device using a flex sensor and Arduino for disabled patients </li>	
+									</ul>
+
+								</p>
+								<hr />
+
+								<h2>Traffic Light Classifier <a href="https://github.com/rushibs/Intro-to-Self-Drivig-Cars-Udacity-Nano-Degree/tree/main/CV_and_ML "><sub><u>[Link]</u></sub></a> <i style="color:gray">&nbsp&nbsp&nbsp&nbsp&nbsp<sub>February 2021</sub></i></b></h2>
+								<p>
+									<ul>
+										<li>Built a classifier for images from a given dataset of traffic light images in which one colored light is illuminated </li>
+										<li>Employed OpenCV2 computer vision library for Loading and visualizing the data, Pre-processing it, Feature extraction Classification and visualizing error, and evaluating the model </li>
+										<li>Recognized and classified the images in multiple colors and achieved greater than 90% accuracy in classification </li>	
+									</ul>
+
+								</p>
+								<hr />
+
+								<h2>Histogram Filter <a href=" "><sub><u>[Link]</u></sub></a> <i style="color:gray">&nbsp&nbsp&nbsp&nbsp&nbsp<sub>January 2021</sub></i></b></h2>
+								<p>
+									<ul>
+										<li>Programmed a 2-D histogram filter for robot localization in Python and C++	</li>
+										<li>Implemented the histogram filter in a grid map representing the robot's world by assigning the robot's belief of its 
+											environment before sensing, considering the probability of the robot making an error in sensing its environment </li>
+										<li>Obtained a refined 2-D filter for a robot living on a colored cyclical grid </li>	
+									</ul>
+
+								</p>
+								<hr />
+								<ul class="actions">
+									<li><a href="#header" class="button icon solid solo fa-arrow-up scrolly">Continue</a></li>
+								</ul>
 
 				</div>				
 					
